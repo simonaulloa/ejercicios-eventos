@@ -8,8 +8,18 @@ demo();
 
 function img(){
 	var imagen = document.getElementById("img");
-	imagen.addEventListener("mouseover", function(){ 
-    alert("NO ESTAS SOBRE MI");
+		imagen.addEventListener("mouseover", function(){ 
+			alert("ESTAS SOBRE MI");
+
 })
 }
 img();
+
+function img1(){
+	var imag = document.getElementById("img");
+		imag.addEventListener("mouseout", function(){ 
+			alert("NO ESTAS SOBRE MI");
+
+})
+}
+img1();
