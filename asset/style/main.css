@@ -1,0 +1,18 @@
+.bloque1{
+	float:right;
+	padding: 80px 100px 5px 5px
+}
+.contenedor{
+	padding-top:30px;
+	text-align: center;
+}
+#demo{
+  	font-size:13px;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:180px;
+    padding:13px;
+
+}
